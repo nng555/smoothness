@@ -1,6 +1,4 @@
-# Predicting OOD Generalization with Local Manifold Smoothness
-
-This is an implementation of our paper Predicting OOD Generalization with Local Manifold Smoothness. In order to calculate smoothness values, we require 3 files:
+In order to calculate smoothness values, we require 3 files:
 - ID File: list of example IDs, where each ID corresponds to an augmented version of a particular example. For example, if example 0 was augmented 10 times, we expect 11 IDs of 0 in the ID file (one for the original example and 10 for the augmented examples)
 - Pred File: list of predictions for each example. Should be ints corresponding to the label.
 - Label File: list of true labels for each example. Should be ints correspoding to the label.
